@@ -1,7 +1,8 @@
 #!/usr/bin/node
+// Script to strings in a loop
 
 let i;
-const myString = ['C is fun', 'Python is cool', 'Javascript is amazing'];
+const myString = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
 
 for (i = 0; i < 3; i++)
 {
