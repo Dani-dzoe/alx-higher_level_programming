@@ -1,5 +1,5 @@
 #!/usr/bin/node
 
-const req = require('req');
+const fs = require('fs');
 const request = require('request');
-request(process.argv[2]).pipe(req.createWriteStream(process.argv[3]));
+request(process.argv[2]).pipe(fs.createWriteStream(process.argv[3]));
